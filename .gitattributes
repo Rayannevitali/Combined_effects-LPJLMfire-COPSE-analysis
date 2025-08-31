@@ -1,3 +1,5 @@
 data/LPJLMfire_output/oxygen_productivity/*.nc filter=lfs diff=lfs merge=lfs -text
 data/LPJLMfire_output/May_param_tests/fire_param/*.nc filter=lfs diff=lfs merge=lfs -text
 data/LPJLMfire_output/May_param_tests/photo_param/*.nc filter=lfs diff=lfs merge=lfs -text
+data/LPJLMfire_output/May_param_tests/both_param/*.nc filter=lfs diff=lfs merge=lfs -text
+data/LPJLMfire_output/late_cret_2025/LPJ_high_CO2/fire_only/*.nc filter=lfs diff=lfs merge=lfs -text
