@@ -6,3 +6,4 @@ data/LPJLMfire_output/late_cret_2025/LPJ_high_CO2/fire_only/*.nc filter=lfs diff
 data/LPJLMfire_output/late_cret_2025/LPJ_high_CO2/photo_only/*.nc filter=lfs diff=lfs merge=lfs -text
 data/LPJLMfire_output/late_cret_2025/LPJ_high_CO2/fire_and_photo/*.nc filter=lfs diff=lfs merge=lfs -text
 data/LPJLMfire_output/late_cret_2025/LPJ_high_temp/fire_only/*.nc filter=lfs diff=lfs merge=lfs -text
+data/LPJLMfire_output/late_cret_2025/LPJ_high_temp/photo_only/*.nc filter=lfs diff=lfs merge=lfs -text
