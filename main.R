@@ -23,18 +23,18 @@ library(Cairo)
 
 # Set Directories (change here)
 main_dir <- "~/Library/CloudStorage/OneDrive-Aarhusuniversitet/PhD/Code/Combined_effects_figures" 
-LPJ_data <- "/Volumes/PhD stuff/LPJLMfire/Output/" # where downloaded data is stored. 
 
 # Default directories
 code_dir <- paste(main_dir,"/code", sep="")
 save_dir <- paste(main_dir,"/Figures", sep="")
 data_dir <- paste(main_dir,"/data", sep="")
+LPJ_data <- data_dir
 
 # Data to download and sort (see comments for each)
-Mills_data   <- read_excel(paste(data_dir,"/COPSE_output/proxy_data/Mills_etal_2023_AREPS_O2.xlsx",sep="")) # data can be found here: https://www.annualreviews.org/doi/abs/10.1146/annurev-earth-032320-095425
-proxy_dat    <- readMat(paste(data_dir,"/COPSE_output/proxy_data/geochem_data_2020.mat",sep=""))            # data can be downloaded here: https://github.com/bjwmills/SCION/tree/main/data 
+Mills_data   <- read_excel(paste(data_dir,"/COPSE_output/proxy_data/Mills_etal_2023_AREPS_O2.xlsx",sep=""))        # data can be found here: https://www.annualreviews.org/doi/abs/10.1146/annurev-earth-032320-095425
+proxy_dat    <- readMat(paste(data_dir,"/COPSE_output/proxy_data/geochem_data_2020.mat",sep=""))                   # data can be downloaded here: https://github.com/bjwmills/SCION/tree/main/data 
 Alaska_data  <- read.csv(paste(data_dir,"/LPJLMfire_output/supplementary_data/aggregated_agb_results.csv",sep="")) # data can be downloaded here: https://catalogue.ceda.ac.uk/uuid/af60720c1e404a9e9d2c145d2b2ead4e/ and then aggregated using the aggregated_alaska.R script
-HoC_data     <- paste(data_dir,"/LPJLMfire_output/supplementary_data/Compiled_HoC.xlsx",sep="")             # data compiled from Vitali et al.2022, provided here
+HoC_data     <- paste(data_dir,"/LPJLMfire_output/supplementary_data/Compiled_HoC.xlsx",sep="")                    # data compiled from Vitali et al.2022, provided here
 
 # Source helper functions
 setwd(main_dir)
