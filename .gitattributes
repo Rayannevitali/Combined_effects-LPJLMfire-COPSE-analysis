@@ -1,0 +1,2 @@
+data/LPJLMfire_output/oxygen_productivity/*.nc filter=lfs diff=lfs merge=lfs -text
+data/LPJLMfire_output/May_param_tests/fire_param/*.nc filter=lfs diff=lfs merge=lfs -text
